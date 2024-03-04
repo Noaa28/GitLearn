@@ -4,6 +4,8 @@ export const Button = (props) => {
 
     return <div>
         <button onClick={() => setName('insert name')}>Reset Name</button>
+        <button>hi</button>
+        <button>bonjour</button>
     </div>
 }
 
