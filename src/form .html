@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+       
+    <form>
+        <h1>הזמנה</h1>
+
+        <div >
+
+            <label for="txtFirstName">שם פרטי</label>
+            <input type="text" id="txtFirstName" name="firstname" value=""  class="nom"/>
+
+           <span> <label for="txtA">שם משפחה</label>
+            <input type="text" id="txtName" name="name" value=""  class="nom"/></span>
+
+
+            <input type="radio" name="male" id="idman" value="man"  class="nom"/><label for="idman">זכר</label>
+            <input type="radio" name="male" id="idfemale" value="female" checked="checked"  class="nom"/> <label
+                for="idfemale">נקבה</label>
+        
+    
+        </div><br>
+        <div >
+            <label for="txtA" >מבוגר</label>
+            <input type="number" max="50" min="0" name="number" value="0"  class="personne"/>
+        
+       
+            <label for="txtA" >ילד</label>
+            <input type="number" max="50" min="0" name="number" value="0" class="personne" />
+        
+    
+            <label for="txtA" >תינוק</label>
+            <input type="number" max="50" min="0" name="number" value="0"  class="personne"/>
+        </div><br>
+        <div>
+
+            <label for="txtAdress">כתובת</label>
+            <input type="text" id="txtAdress" name="adress" value="" />
+        </div><br>
+        <div>
+            <label>אימייל</label>
+            <input type="email" name="email" id="txtemail" value="" required placeholder="הכנס אימייל" />
+
+        </div><br>
+
+        <div>
+
+            <label>  בחר: </label>
+            <input type="checkbox" id="location" checked="checked" />
+            <label for="location">שכירות</label>
+            <input type="checkbox" id="forfait ski" />
+            <label for="forfait ski">כרטיס מעלית</label>
+        </div><br>
+
+        <div><label>תאריך הגעה</label><input type="date" id="date" />
+        <label>תאריך יציאה</label><input type="date" id="date" /></div><br>
+
+
+        <div><label for="txtA">טלפון</label>
+            <input type="tel" />
+        </div> <br>
+
+        <div>
+            <label>האם ברצונך לשלם דרך נציג?</label>
+            <input type="radio" name="yes" id="idyes" value="yes" /><label for="idyes">כן</label>
+            <input type="radio" name="yes" id="idno" value="no" checked="checked" /> <label
+                for="idno">לא</label>
+        </div><br>
+        
+        <div><label>אם לא , תכניסו את הפרטי אשראי שלכם</label></div><br>
+        <div> <label for="txtA">מספר אשראי</label>
+            <input type="numcart" />
+        </div><br>
+        <div>
+            <label for="txtA">תוקף </label>
+            <input type="date" id="tokef"/>
+        
+       
+            <label for="txtA">CVV</label>
+            <input type="cvv"  id="cvv"/>
+        </div><br>
+
+       <h3>שאלות</h3>
+        <div id="question">
+            
+
+            <textarea cols="70" rows="10"></textarea>
+        </div> <br>
+        <input type="submit" value="שלח טופס" class="bouton" />
+        <input type="reset" value="נקה" class="bouton" />
+
+    </form>
+</body>
+</html>
